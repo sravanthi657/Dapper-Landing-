@@ -1,0 +1,56 @@
+head{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+body{
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+}
+
+nav, .nav-links
+{
+    display: flex;
+}
+.emblem {
+    font-size: 3.839rem;
+    font-weight: 700;
+    font-family: 'Delius Unicase';
+    padding-right: 102px;
+  }
+nav 
+{
+    padding: 0;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #6F6AF7;
+}
+
+
+.nav-links, select{
+    list-style-type: none;
+    gap: 2rem;
+    font-size: 2.277rem;
+    font-family: 'DM sans';
+    font-weight: 400;
+}
+select {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    background-color: #6F6AF7;
+}
+
+input[type="search"] {
+    background: url(assets/search.png) no-repeat right; 
+    background-size: 26px 26px;
+    opacity: 0.7;
+}
+button #three-lines
+{
+    background: url(assets/threeLines.png);
+}
